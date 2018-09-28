@@ -18,3 +18,6 @@ git reset --hard 1094a
 cat Git学习/git命令.txt
 git diff HEAD -- readme.txt
 
+第一次修改 -> git add -> 第二次修改 -> git add -> git commit
+只会提交暂存区的，第二次修改的不会提交
+
