@@ -21,3 +21,5 @@ git diff HEAD -- readme.txt
 第一次修改 -> git add -> 第二次修改 -> git add -> git commit
 只会提交暂存区的，第二次修改的不会提交
 
+git checkout -- Git学习/git命令.txt      //可以丢弃工作区的修改
+
