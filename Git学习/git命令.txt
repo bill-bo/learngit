@@ -16,4 +16,5 @@ cat readme.txt
 git reset --hard 1094a
 
 cat Git学习/git命令.txt
+git diff HEAD -- readme.txt
 
