@@ -36,3 +36,6 @@ git reset --mixed <commit_ID>
 
 git reset --hard <commit_ID>
 将版本库、暂存区、工作区的记录均恢复到指定的版本
+
+
+git remote add origin https://github.com/bill-bo/learngit.git    //将本地版本库推送远程版本库
