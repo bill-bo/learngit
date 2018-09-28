@@ -25,3 +25,14 @@ git checkout -- Git学习/git命令.txt      //可以丢弃工作区的修改
 
 git reset HEAD <file>可以把暂存区的修改撤销掉（unstage）
 
+rm git命令
+一是确实要从版本库中删除该文件，那就用命令git rm删掉，并且git commit
+
+git reset --soft <commit_ID>
+只撤销版本库，而不修改暂存区和工作区
+
+git reset --mixed <commit_ID>
+只撤销版本库和暂存区，而不修改工作区
+
+git reset --hard <commit_ID>
+将版本库、暂存区、工作区的记录均恢复到指定的版本
