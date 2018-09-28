@@ -39,3 +39,4 @@ git reset --hard <commit_ID>
 
 
 git remote add origin https://github.com/bill-bo/learngit.git    //将本地版本库推送远程版本库
+git push -u origin master
