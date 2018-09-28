@@ -1,4 +1,4 @@
-$ git config --global user.name "Bill"
+﻿$ git config --global user.name "Bill"
 $ git config --global user.email "1040679875@qq.com"
 
 
@@ -8,4 +8,10 @@ mkdir learngit
 cd learngit
 pwd                //pwd命令用于显示当前目录
 git init           //通过git init命令把这个目录变成Git可以管理的仓库
+
+
+git log --pretty=oneline
+git reset --hard HEAD^
+cat readme.txt
+git reset --hard 1094a
 
